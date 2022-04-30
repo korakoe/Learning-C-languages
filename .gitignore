@@ -1,0 +1,11 @@
+
+*.pdb
+*.idb
+*.tlog
+*.log
+*.ilk
+*.recipe
+*.vcxproj
+*.filters
+Learning-C-languages.vcxproj
+Learning-C-languages.vcxproj.filters
