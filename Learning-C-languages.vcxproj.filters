@@ -12,7 +12,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hello Wolrd.c">
+    <ClCompile Include="C++\Hello World.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="C\Hello World.c">
       <Filter>C</Filter>
     </ClCompile>
   </ItemGroup>
