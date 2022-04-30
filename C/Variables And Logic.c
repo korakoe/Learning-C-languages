@@ -2,7 +2,10 @@
 
 int main() {
 
-	// variables and such
+	// variables
+	// here are some variable resources
+	// https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/
+
 	int number1;
 	int number2;
 
