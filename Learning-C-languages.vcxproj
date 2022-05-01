@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++\Hello World.cpp" />
+    <ClCompile Include="C++\Text Adventure.cpp" />
     <ClCompile Include="C++\Variables And Logic.cpp" />
     <ClCompile Include="C\Hello World.c" />
     <ClCompile Include="C\Variables And Logic.c" />

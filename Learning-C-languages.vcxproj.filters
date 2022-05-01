@@ -24,5 +24,8 @@
     <ClCompile Include="C++\Variables And Logic.cpp">
       <Filter>C++</Filter>
     </ClCompile>
+    <ClCompile Include="C++\Text Adventure.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
