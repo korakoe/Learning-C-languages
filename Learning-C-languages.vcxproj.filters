@@ -21,5 +21,8 @@
     <ClCompile Include="C\Variables And Logic.c">
       <Filter>C</Filter>
     </ClCompile>
+    <ClCompile Include="C++\Variables And Logic.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
