@@ -37,8 +37,17 @@ int main() {
 	Sleep(1000);
 
 	typewriteLN("You must travel accross the lands to defeat zalza, the evil demon king! \n");
+	Sleep(700);
+	typewriteLN("If this mission fails... we will surely be destroyed.");
+	Sleep(500);
+	typewriteLN(" now... ");
+	Sleep(700);
+	typewriteLN("let's start the perilous journey to cheri. \nThe city zalza rules...");
 	cin.get();
-	typewriteLN("If this mission fails... we will surely be destroyed");
+	Sleep(5000);
+	system("CLS");
+	typewriteLN("You awake to a forest, this forest consists only of cherry blossoms"
+		" \nand berry bushes, with snow in between your feet, snowflakes falling onto your nose");
 
 	return 0;
 }
