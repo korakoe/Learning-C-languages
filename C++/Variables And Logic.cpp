@@ -5,7 +5,7 @@ using namespace std;
 
 // for the most part this is the same if not simpler than base C
 
-int main() {
+int mainb() {
 	float num1, num2;
 	cout << "Enter number one: ";
 	cin >> num1;

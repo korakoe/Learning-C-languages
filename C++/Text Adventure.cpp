@@ -1,7 +1,23 @@
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+
 #include <iostream>
+#include <cstdlib>
 #include <string>
 
 using namespace std;
+
+void typewriteLN(string text) {
+	int length = text.size();
+	for (int i = 0; i < length; i++)
+	{
+		cout << text[i];
+		Sleep(30);
+	}
+}
 
 int main() {
 	cout << "-----|| This is a small text adventure game written in C++ ||----- \nThis is just so I can learn file saving, if/else statements and logic \n";
@@ -15,9 +31,13 @@ int main() {
 	cout << " Enter Your Name Adventurer! -- ";
 	getline(cin, name);
 
-	cout << "Hello, " << name << "\n\n";
+	typewriteLN(("Hello, " + name + "! We are in great trouble!\n\n"));
 
-	system("pause");
+	Sleep(1000);
+
+	typewriteLN("You must travel accross the lands to defeat zalza, the evil demon king! \n");
+	cin.get();
+	typewriteLN("If this mission fails... we will surely be destroyed");
 
 	return 0;
 }
