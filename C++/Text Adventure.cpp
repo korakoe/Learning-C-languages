@@ -10,6 +10,7 @@
 
 using namespace std;
 
+// does the cool typewriter text effect
 void typewriteLN(string text) {
 	int length = text.size();
 	for (int i = 0; i < length; i++)
